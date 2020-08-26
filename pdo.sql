@@ -4,7 +4,10 @@ create database pdo;
 use pdo;
 
 DROP TABLE IF EXISTS alunos;
+<<<<<<< HEAD
 DROP TABLE IF EXISTS usuarios;
+=======
+>>>>>>> 172eb76e387d58f2f448dbd8bed05ff62faa786b
 
 create table alunos 
 (
@@ -14,6 +17,7 @@ create table alunos
     primary key (id)
 );
 
+<<<<<<< HEAD
 create table usuarios 
 (
     id int not null auto_increment,
@@ -24,6 +28,8 @@ create table usuarios
 );
 
 insert into usuarios (usuario, senha) values ('admin', 'admin');
+=======
+>>>>>>> 172eb76e387d58f2f448dbd8bed05ff62faa786b
 insert into alunos (nome, nota) values ('Pedro', 8);
 insert into alunos (nome, nota) values ('joao', 5);
 insert into alunos (nome, nota) values ('jose', 2);

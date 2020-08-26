@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
+<<<<<<< HEAD
             <name>PDO</name>
+=======
+            <name>pdo</name>
+>>>>>>> 172eb76e387d58f2f448dbd8bed05ff62faa786b
         </data>
     </configuration>
 </project>
