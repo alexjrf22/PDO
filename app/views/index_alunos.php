@@ -103,11 +103,7 @@
                 <?php endforeach; ?>
                 
             </table>
-            
-
-            
-           
-           
+  
          <form method="post" action="">
             <input type="submit" name="deslogar" value="Deslogar do Sistema" class= "btn btn-primary" />
         </form>
